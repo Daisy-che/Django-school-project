@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Class(models.Model):
+    
     class_name=models.CharField(max_length=20)
     class_color=models.CharField(max_length=20)
     class_building_material=models.CharField(max_length=20)
